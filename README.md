@@ -5,7 +5,7 @@ We've created an app that allows the users to manage his characters on a dashboa
 # Team
 Pierre (Hamilton 2.12) | Wolfgang (Jepsen 2.14)
 
-# Web Version
+# Web link
 
 https://rflowturing.github.io/Comics_Manager/
 
