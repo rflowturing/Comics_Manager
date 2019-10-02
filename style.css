@@ -32,8 +32,11 @@ h1 {
   background-color: #323031;
   color: #fff;
   align-items: center;
-  border: 1px solid black;
   border-radius: 10px;
+}
+
+#list div div h1 {
+  font-size: 24px;
 }
 
 #list div div img {
@@ -41,6 +44,8 @@ h1 {
   width: 150px;
   margin-top: 50px;
   border-radius: 50%;
+  border: 5px solid #FFC857;
+  background-color: #FFC857;
 }
 
 #list div div div {
@@ -79,7 +84,7 @@ button {
 }
 
 .viewHero {
-  background-color: #FFC857;
+  background-color: #fff;
   color: #323031;
   margin: 5px;
   border-radius: 3px;
@@ -95,11 +100,11 @@ button {
 }
 
 .deleteHero {
-  background-color: #FFC857;
-  color: #323031;
+  background-color: #323031;
+  color: #F4743B;
+  border: 1px solid #F4743B;
   margin: 5px;
   border-radius: 3px;
-  border: none;
 }
 
 .app_container {

@@ -85,13 +85,13 @@ window.onload = function () {
                 let arrayOfHero = await idHero.data;
 
 
-                if (confirm('Voulez vous supprimer?')) {
-                    alert('Vous avez supprimez le héro ' + arrayOfHero.name);
+                if (confirm('Voulez-vous supprimer?')) {
+                    alert('Vous avez supprimé le héro ' + arrayOfHero.name);
 
                     await axios.delete(`https://character-database.becode.xyz/characters/${id}`)
 
                 } else {
-                    alert("Vous avez sauveer votre hero ");
+                    alert("Vous avez sauvé votre héro ");
                 }
 
             })
