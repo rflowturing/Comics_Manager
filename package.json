@@ -1,0 +1,24 @@
+{
+  "name": "Comics_Manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rflowturing/Comics_Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rflowturing/Comics_Manager/issues"
+  },
+  "homepage": "https://github.com/rflowturing/Comics_Manager#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}

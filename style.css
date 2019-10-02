@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#list div div {
+    padding: 5%;
+    margin-top: 25px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+#list div div div {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    height: 25px;
+    width: 100px
+}
+
+/*ajout Isma*/
+#heroes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#addHero {
+
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: green;
+}
+
+.viewHero {
+    background-color: blue;
+}
+
+.editHero {
+    background-color: yellow;
+}
+
+.deleteHero {
+    background-color: red;
+}
