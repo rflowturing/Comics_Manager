@@ -60,6 +60,8 @@ p {
   text-align: center;
 }
 
+
+
 button {
   height: 25px;
   width: 100px;
@@ -81,6 +83,7 @@ button {
   margin-bottom: 25px;
   border: none;
   background-image: url("src/plus.svg");
+  color : black;
 }
 
 .viewHero {
@@ -90,6 +93,7 @@ button {
   border-radius: 3px;
   border: none;
 }
+
 
 .editHero {
   background-color: #FFC857;
@@ -131,9 +135,4 @@ button {
   position: fixed;
   top: 0;
   right: 0;
-}
-
-.modal-content {
-  background-color: #323031 !important;
-  color: #fff;
 }
