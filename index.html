@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,83 +18,78 @@
 </head>
 
 <body>
+
+  <div class="app_container">
     <div id="heroes">
-        <h1>Heroes list</h1>
-        <template id="tpl-hero">
-            <div id="hero">
-                <h4 class="title">
-                    <strong class="name"></strong>
-                </h4>
-                <em class="alter-ego"></em>
-                <p class="powers"></p>
-                <span></span>
-            </div>
-        </template>
 
-
-        <div id="list"></div>
-        <!--<button id="addHero">Add</button>-->
-        <button id="addHero" type="button" data-toggle="modal" data-target="#addModal">ADD
-        </button>
-
-
-
-        <div class="modal fade" id="view" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Votre héro ! </h4>
-                    </div>
-                    <div class="modal-body">
-                        <div id="target">
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-
-                        <button id="retour" type="button" class="btn btn-default" data-dismiss="modal">Retour</button>
-                    </div>
-                </div>
-            </div>
+      <template id="tpl-hero">
+        <div id="hero">
+          <h4 class="title">
+            <strong class="name"></strong>
+          </h4>
+          <em class="alter-ego"></em>
+          <p class="powers"></p>
+          <span></span>
         </div>
+      </template>
 
-        <div class="modal fade" id="addModal" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">AJOUTEZ VOTRE HERO ! </h4>
-                    </div>
-                    <div class="modal-body">
-                        <ul>
-                            <li><input id="addName" placeholder="Ajoutez un nom"> </input></li>
-                            <li><input id="addShortDescription" placeholder="Ajoutez une COURTE description"></input>
-                            </li>
-                            <li><input id="addDescription" pla ceholder="Ajoutez une description complète"></input></li>
-                            <li>
-                                <h4>Ajoutez une image ! </h4>
-                                <input id="addImage" placeholder="Ajoutez une image complète"></input>
-                                <!--  <input type="file" placeholder="Ajoutez une image" id="addImage"
-                                    accept="image/jpeg"></input> -->
-                            </li>
+      <div id="list"></div>
+      <!--<button id="addHero">Add</button>-->
+      <button id="addHero" type="button" data-toggle="modal" data-target="#addModal"></button>
 
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="sendInfo" type="button" class="btn btn-default"
-                            data-dismiss="modal">Envoyer</button>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
-                    </div>
-                </div>
-
-
-
+      <div class="modal fade" id="view" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Votre héro ! </h4>
             </div>
-
+            <div class="modal-body">
+              <div id="target">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="retour" type="button" class="btn btn-default" data-dismiss="modal">Retour</button>
+            </div>
+          </div>
         </div>
+      </div>
 
+      <!-- Modal -->
+      <div class="modal fade" id="addModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">AJOUTEZ VOTRE HERO ! </h4>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li><input id="addName" placeholder="Ajoutez un nom"> </input></li>
+                <li><input id="addShortDescription" placeholder="Ajoutez une COURTE description"></input></li>
+                <li><input id="addDescription" pla ceholder="Ajoutez une description complète"></input></li>
+                <li>
+                  <h4>Ajoutez une image ! </h4>
+                  <input id="addImage" placeholder="Ajoutez une image complète"></input>
+                  <!--  <input type="file" placeholder="Ajoutez une image" id="addImage" accept="image/jpeg"></input> -->
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button id="sendInfo" type="button" class="btn btn-default" data-dismiss="modal">Envoyer</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </div>
+  </div>
+
+  <!-- SVG -->
+  <img id="meteor" src="src/meteor.svg" alt="">
+  <a href="https://github.com/rflowturing/Comics_Manager" target="_blank" id="octo"><img src="src/octo.svg" alt=""></a>
+  <img id="arrow" src="src/arrow.svg" alt="">
 
 </body>
 

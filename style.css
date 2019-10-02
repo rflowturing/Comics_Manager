@@ -1,85 +1,134 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #323031 !important;
 }
 
 h1 {
-    text-align: center;
-    color: gray;
+  text-align: center;
+  color: gray;
 }
 
 #list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #list div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  margin-top: 170px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #list div div {
-    padding: 5%;
-    margin-top: 25px;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 20%;
+  padding: 10px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #323031;
+  color: #fff;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#list div div img {
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+  border-radius: 50%;
 }
 
 #list div div div {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 p {
-    text-align: center;
-}
-
-img {
-    height: 100px;
-    width: 100px;
+  text-align: center;
 }
 
 button {
-    height: 25px;
-    width: 100px
+  height: 25px;
+  width: 100px;
 }
 
-/*ajout Isma*/
 #heroes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #addHero {
-
-    width: 250px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: green;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+  border: none;
+  background-image: url("src/plus.svg");
 }
 
 .viewHero {
-    background-color: blue;
+  background-color: #FFC857;
+  color: #323031;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
 }
 
 .editHero {
-    background-color: yellow;
+  background-color: #FFC857;
+  color: #323031;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
 }
 
 .deleteHero {
-    background-color: red;
+  background-color: #FFC857;
+  color: #323031;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+.app_container {
+  background-color: #FFC857;
+}
+
+#meteor {
+  width: 60px;
+  position: fixed;
+  top: 70px;
+  left: 60px;
+}
+
+#arrow {
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  left: 60px;
+  bottom: 70px;
+}
+
+#octo {
+  width: 150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.modal-content {
+  background-color: #323031 !important;
+  color: #fff;
 }
