@@ -98,10 +98,11 @@
 
                         await axios.delete(`https://character-database.becode.xyz/characters/${id}`)
 
+
                     } else {
                         alert("Vous avez sauvé votre héro ");
                     }
-
+                    window.location.reload(true);
                 })
 
             })
@@ -125,6 +126,7 @@
                         image: inputImage
                     })
                 }
+                window.location.reload(true);
 
 
             })
@@ -161,10 +163,12 @@
                             description: editDescription.value,
                             image: editImage.value
                         })
+                        window.location.reload(true);
                     })
                 })
 
             })
+
         }
 
         getCharacters();
